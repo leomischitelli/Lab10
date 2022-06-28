@@ -43,7 +43,7 @@ public class River {
 	}
 
 	public void setFlows(List<Flow> flows) {
-		this.flows = flows;
+		this.flows = new ArrayList<>(flows);
 	}
 
 	public List<Flow> getFlows() {
